@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 // base url will be dynamic depending on the environment
 const BASE_URL = import.meta.env.MODE === "development" 
   ? "http://localhost:3000" 
-  : "https://backend-aaegakaaahd0ctdg.centralindia-01.azurewebsites.net";
+  : "https://backendapp-f0avf9caejecb8b9.centralindia-01.azurewebsites.net";
 
 export const useProductStore = create((set, get) => ({
   // products state
